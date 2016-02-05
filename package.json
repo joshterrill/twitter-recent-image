@@ -1,0 +1,30 @@
+{
+  "name": "twitter-recent-image",
+  "version": "1.0.0",
+  "description": "An express server that pulls and serves the most recent image from a twitter timeline and displays it in the response",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshterrill/twitter-recent-image.git"
+  },
+  "keywords": [
+    "twitter",
+    "recent",
+    "image"
+  ],
+  "author": "Josh Terrill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshterrill/twitter-recent-image/issues"
+  },
+  "homepage": "https://github.com/joshterrill/twitter-recent-image#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "request": "^2.69.0",
+    "twitter": "^1.2.5"
+  }
+}
